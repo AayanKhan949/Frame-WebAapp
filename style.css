@@ -1,0 +1,19 @@
+body{
+    background-color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+canvas {
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    border:1px solid black;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px yellow;}
+    to {box-shadow: 15px 115px 62px orangered;}
+}
+h3
+{
+  font-size: 25px !important;
+}
